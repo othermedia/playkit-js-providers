@@ -63,7 +63,8 @@ const servicesConfig = clone(baseConfig);
 
 Object.assign(providersConfig.entry, {
   ott: 'k-provider/ott/index.js',
-  ovp: 'k-provider/ovp/index.js'
+  ovp: 'k-provider/ovp/index.js',
+  streamamg: 'k-provider/streamamg/index.js'
 });
 
 Object.assign(providersConfig.output, {

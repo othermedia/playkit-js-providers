@@ -1,3 +1,7 @@
+# OTHER MEDIA FORK
+
+See [OMREADME.md](OMREADME.md)
+
 # PlayKit JS Providers - Cloud TV and OVP Media Provider Plugins for the [PlayKit JS Player]
 
 [![Build Status](https://travis-ci.com/kaltura/playkit-js-providers.svg?token=s2ZQw18ukx9Q6ePzDX3F&branch=master)](https://travis-ci.com/kaltura/playkit-js-providers)

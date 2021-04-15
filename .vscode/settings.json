@@ -1,0 +1,6 @@
+// Added by OM
+{
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "markdown.extension.toc.updateOnSave": false
+}

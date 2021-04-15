@@ -1,5 +1,5 @@
 {
-  "name": "playkit-js-providers",
+  "name": "@othermedia/playkit-js-providers",
   "version": "2.28.1",
   "description": "",
   "scripts": {
@@ -14,7 +14,6 @@
     "eslint": "eslint . --color",
     "flow": "flow check",
     "commit:dist": "git add --force --all dist && (git commit -m 'chore: update dist' || exit 0)",
-    "precommit": "lint-staged",
     "prettier:fix": "prettier --write ."
   },
   "lint-staged": {
@@ -87,10 +86,11 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-providers.git"
+    "url": "git+https://github.com/othermedia/playkit-js-providers.git"
   },
   "bugs": {
     "url": "https://github.com/kaltura/playkit-js-providers/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-providers#readme"
+  "homepage": "https://github.com/kaltura/playkit-js-providers#readme",
+  "pre-push": []
 }

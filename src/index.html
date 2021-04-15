@@ -3,9 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <script src="./playkit-streamamg-provider.js" type="text/javascript"></script>
 </head>
 <body>
-<script>
-</script>
+  <script type="text/javascript">
+    // Step 1 - Create a provider options object
+    var options = {
+      partnerId: 3000178,
+      ks: 'Y2Q1YjgxM2NmNWQ0MDU5ZjVkMjg1YjJiOTZmNjhjMTBmNTQyZTYzM3wzMDAwMTc4OzMwMDAxNzg7MTYxODY3NDAwMDswOzE2MTg2NTYwMDA7Vmlld2VyO3N2aWV3OjBfMXJyMWp5NTYsc2V0cm9sZTpQTEFZQkFDS19CQVNFX1JPTEUsd2lkZ2V0OjE7Ow==',
+      env: {
+        cdnUrl: "https://open.http.mp.streamamg.com/",
+        serviceUrl: "https://open.http.mp.streamamg.com/api_v3"
+      }
+    };
+    // Step 2 - Create a provider instance
+    var provider = new playkit.providers.streamamg.Provider(options);
+    // Step 3 - Create media info object
+    var mediaInfo = {
+      entryId: '0_1rr1jy56' // Mandatory
+      //ks: "YOUR_KS" // Optional
+    };
+    // Step 4 - Get the media config
+    provider.getMediaConfig(mediaInfo).then(function(mediaConfig) {
+      // Manipulate media config
+      console.log(mediaConfig);
+    });
+  </script>
 </body>
 </html>
